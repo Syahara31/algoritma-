@@ -1,4 +1,5 @@
-a = float(input("masukan angka pertama: "))
-b = float(input("masukan angka kedua: "))
-c = float(input("masukan angkaa ketiga: "))
-print(f"Rata-rata: {(a + b + c) / 3}")
+angka1 = int(input("Masukkan angka pertama: "))
+angka2 = int(input("Masukkan angka kedua: "))
+angka3 = int(input("Masukkan angka ketiga: "))
+rata_rata = (angka1 + angka2 + angka3) / 3
+print("Rata-rata dari ketiga angka = ", rata_rata)
